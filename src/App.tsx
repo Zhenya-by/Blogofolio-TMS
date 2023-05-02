@@ -1,24 +1,32 @@
-import React from 'react';
-import './App.css';
+import './App.scss';
+import { Button } from './components/Button/Button';
+import { UserInfo } from './components/Userinfo/Userinfo';
 
-function App() {
+export const App = () => {
+
+  const handleClick = () => {
+    console.log('click');
+    
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className="app">
+      <Button type='primary' content='click me' isDisabled={false} onClick={handleClick}/>
+      <Button type='primary' content='click me' isDisabled onClick={handleClick}/>
+      <br/>
+      <br/>
+      <Button type='secondary' content='click me' isDisabled={false} onClick={handleClick}/>
+      <Button type='secondary' content='click me' isDisabled onClick={handleClick}/>
+      <br/>
+      <br/>
+      <Button type='secondary2' content='click me' isDisabled={false} onClick={handleClick}/>
+      <Button type='secondary2' content='click me' isDisabled onClick={handleClick}/>
+      <br/>
+      <br/>
+      <UserInfo username='Evgeny Minko'/>
     </div>
+    </>
   );
 }
 
-export default App;
