@@ -3,6 +3,7 @@ import { Button } from './components/Button/Button';
 import { UserInfo } from './components/Userinfo/Userinfo';
 import { Title } from './components/Title/Title';
 import { HamburgerMenu } from './components/HamburgerMenu/Menuhamburger';
+import { Tabs } from './components/Tabs/Tabs';
 
 export const App = () => {
 
@@ -29,12 +30,17 @@ export const App = () => {
       <UserInfo username='Evgeny Minko'/>
       <br/>
       <br/>
-      <Title signIn='Sign in'/>
+      <h2 className='homeWorkH2'>Home Work (00)</h2>
+      <Title signIn= 'Sign in'/>
       <br/>
       <br/>
       <div>
       <HamburgerMenu/>
     </div>
+      <br />
+      <br />
+      <br />
+      <Tabs/>
     </div>
     </>
   );
