@@ -18,5 +18,5 @@ export const UserInfo: FC<IUserInfo> = ({username}) => {
             <div className='userinfo_initials'>{generateInitials(username)}</div>
             <div className='userinfo__name'>{username}</div>
         </div>
-    )
+    );
 }

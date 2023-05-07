@@ -1,6 +1,8 @@
 import './App.scss';
 import { Button } from './components/Button/Button';
 import { UserInfo } from './components/Userinfo/Userinfo';
+import { Title } from './components/Title/Title';
+import { HamburgerMenu } from './components/HamburgerMenu/Menuhamburger';
 
 export const App = () => {
 
@@ -25,6 +27,14 @@ export const App = () => {
       <br/>
       <br/>
       <UserInfo username='Evgeny Minko'/>
+      <br/>
+      <br/>
+      <Title signIn='Sign in'/>
+      <br/>
+      <br/>
+      <div>
+      <HamburgerMenu/>
+    </div>
     </div>
     </>
   );

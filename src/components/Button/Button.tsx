@@ -6,7 +6,7 @@ interface IButton {
     isDisabled: boolean;
     type: 'primary' | 'secondary' | 'secondary2';
     content: string;
-    onClick: () => void ;
+    onClick: () => void;
 
 }
 
