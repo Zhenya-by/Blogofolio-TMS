@@ -16,6 +16,7 @@ export const App = () => {
   return (
     <>
     <div className="app">
+      <h2 className='lessonH2'>Lesson Work (00)</h2>
       <Button type='primary' content='click me' isDisabled={false} onClick={handleClick}/>
       <Button type='primary' content='click me' isDisabled onClick={handleClick}/>
       <br/>
@@ -42,6 +43,7 @@ export const App = () => {
       <br />
       <br />
       <Tabs/>
+      <h2 className='lessonH2'>Lesson Work (01)</h2>
       <Form/>
     </div>
     </>
