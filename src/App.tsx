@@ -4,6 +4,7 @@ import { UserInfo } from './components/Userinfo/Userinfo';
 import { Title } from './components/Title/Title';
 import { HamburgerMenu } from './components/HamburgerMenu/Menuhamburger';
 import { Tabs } from './components/Tabs/Tabs';
+import { Form } from './components/Form/Form';
 
 export const App = () => {
 
@@ -41,6 +42,7 @@ export const App = () => {
       <br />
       <br />
       <Tabs/>
+      <Form/>
     </div>
     </>
   );
