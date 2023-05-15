@@ -5,6 +5,9 @@ import { Title } from './components/Title/Title';
 import { HamburgerMenu } from './components/HamburgerMenu/Menuhamburger';
 import { Tabs } from './components/Tabs/Tabs';
 import { Form } from './components/Form/Form';
+import { Card } from './components/Card/Card';
+import { CardList } from './components/CardList/CardList';
+
 
 export const App = () => {
 
@@ -46,6 +49,9 @@ export const App = () => {
       <h2 className='lessonH2'>Lesson Work (01)</h2>
       <Form/>
     </div>
+      <br />
+      <br />
+      <CardList />
     </>
   );
 }
