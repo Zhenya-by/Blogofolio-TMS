@@ -7,6 +7,7 @@ import { Tabs } from './components/Tabs/Tabs';
 import { Form } from './components/Form/Form';
 import { Card } from './components/Card/Card';
 import { CardList } from './components/CardList/CardList';
+import { SignIn } from './components/SignIn/SignIn';
 
 
 export const App = () => {
@@ -48,6 +49,7 @@ export const App = () => {
       <Tabs/>
       <h2 className='lessonH2'>Lesson Work (01)</h2>
       <Form/>
+      <SignIn/>
     </div>
       <br />
       <br />

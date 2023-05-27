@@ -8,6 +8,7 @@ export const Form: FC = () => {
     const [name, setName] = useState('');
     const [lastName, setLastName] = useState('');
     const [text, setText] = useState('');
+    const [textArea, setTextArea] = useState('');
 
     const handleChangeName = (newName: string) => {
         setName(newName);
@@ -17,6 +18,9 @@ export const Form: FC = () => {
     }
     const handleChangeText = (textName: string) => {
         setText(textName);
+    }
+    const handleChangeTextArea = (textAreaName: string) => {
+        setTextArea(textAreaName);
     }
 
 
@@ -48,9 +52,9 @@ export const Form: FC = () => {
             <br />
             <Textarea 
                 title='Title'
-                value={text}
+                value={textArea}
                 placeholder='placeholder'  
-                handleChange={handleChangeText}
+                handleChange={handleChangeTextArea}
             />
         </form>
     )

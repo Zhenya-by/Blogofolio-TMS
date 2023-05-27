@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    outline: 1px solid #DADADA; 
+    margin: 0 auto;
+    width: 648px;
+    
+    & .text-text{
+        text-align: center;
+        padding: 26px 0;
+        color: #8D8E97;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    & .text-color {
+        color: blue;
+    }
+}
+
