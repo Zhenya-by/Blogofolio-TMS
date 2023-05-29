@@ -1,8 +1,8 @@
 import { FC, useState } from 'react';
-import './SignIn.scss';
 import { Input } from '../Input/Input';
 import { log } from 'console';
 import { Button } from '../ButtonSignIn/ButtonSignIn';
+import './SignIn.scss';
 
 
 export const SignIn: FC = () => {

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Menuhamburger.scss";
-import { UserInfo } from "../Userinfo/Userinfo";
+// import { UserInfo } from "../UserInfo/UserInfo";
 
 export const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +19,7 @@ export const HamburgerMenu = () => {
         </div>
       </button>
       <ul className={`burger-menu__items ${isOpen ? "open" : ""}`}>
-        <UserInfo username={"Evgeny Minko"} />
+        {/* <UserInfo username={"Evgeny Minko"} /> */}
       </ul>
     </div>
   );
