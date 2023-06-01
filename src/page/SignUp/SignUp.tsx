@@ -60,7 +60,7 @@ export const SignUp: FC = () => {
                 <Button
                 isDisabled={false}
                 type={'primary'} 
-                content={'Шлепни me'} 
+                content={'Sign Up'} 
                 onClick={handleSubmit} 
                 />
                 <p className='sign-up__form-description'>

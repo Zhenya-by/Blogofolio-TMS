@@ -1,0 +1,30 @@
+.registration-confirm {
+    // margin: 0 auto;
+    & H1 {
+        margin: 72px 0;
+
+    }
+    & .registration-confirm--cotainer {
+        margin: 0 auto;
+        border: 1px solid #dadada;
+        padding: 40px;
+        max-width: 624px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &.registration-confirm--text {
+        margin-bottom: 32px;
+
+        &.bold--link {
+            font-weight: bold;
+        }
+    }
+
+
+
+    & Button {
+        margin-top: 48px;
+    }
+}
