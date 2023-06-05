@@ -1,6 +1,6 @@
 import { FC, useState } from 'react';
 import { BurgerMenu } from '../BurgerMenu/BurgerMenu';
-import { UserInfo } from '../UserInfo/UserInfo';
+import { UserInfo } from '../Userinfo/Userinfo';
 import { IconButton } from '../IconButton/IconButton';
 import search from '../../assets/icons/search.svg';
 import cancel from '../../assets/icons/cancel.svg';

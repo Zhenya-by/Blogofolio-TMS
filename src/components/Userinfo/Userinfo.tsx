@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import './UserInfo.scss';
+import './Userinfo.scss';
 
 interface IUserInfo {
     username: string;
