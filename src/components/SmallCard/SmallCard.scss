@@ -9,6 +9,11 @@
     &__content {
         display: flex;
         column-gap: 34px;
+        
+        .small-card__box{
+            width: 222px;
+
+        }
     }
 
     &__img-box {
