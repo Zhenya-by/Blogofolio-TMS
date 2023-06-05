@@ -1,0 +1,45 @@
+.full-card {
+    // display: flex;
+    // flex-direction: row;
+    // flex-direction: column;
+    gap: 32px;
+    max-width: 736px;
+    padding-bottom: 41px;
+    border-bottom: 1px solid #dadada;
+
+
+    &__box{
+        // display: flex;
+        // flex-direction: column;
+    }
+
+    &__content {
+        // display: flex;
+        column-gap: 34px;
+        display: flex;
+        // max-width: 448px;
+    }
+
+    &__text {
+        margin-top: 24px;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #8d8e97;
+        margin-top: 23px;
+        max-width: 448px;
+        margin-bottom: 32px;
+    }
+
+    &__img-box {
+        overflow: hidden; /* чтобы изображение не выходило за границы блока */
+        align-items: center;
+    }
+
+    &__img {
+        width: auto;
+        height: auto;
+        display: block; /* чтобы изображение было выровнено по центру блока */
+        margin: auto;
+    }
+}
